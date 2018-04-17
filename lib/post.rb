@@ -7,6 +7,7 @@ class Post
 
   def author_name
 
+    #Using ternary syntax
     (self.author ? self.author.name : nil)
 
     #if self.author != nil
