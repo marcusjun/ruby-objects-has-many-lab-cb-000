@@ -6,11 +6,15 @@ class Song
   end
 
   def artist_name
-    if self.artist != nil
-      self.artist.name
-    else
-      nil
-    end
+
+    #Using ternary syntax
+    (self.artist ? self.artist.name : nil)
+    
+    #if self.artist != nil
+      #self.artist.name
+    #else
+      #nil
+    #end
   end
 
 end
