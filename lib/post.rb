@@ -6,11 +6,16 @@ class Post
   end
 
   def author_name
-    if self.author != nil
-      self.author.name
-    else
-      nil
-    end
+
+    #Using ternary syntax
+    (self.author ? self.author.name : nil)
+
+    #If/else statements work too
+    #if self.author != nil
+      #self.author.name
+    #else
+      #nil
+    #end
 
   end
 
