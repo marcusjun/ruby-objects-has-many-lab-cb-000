@@ -3,11 +3,6 @@ class Artist
 
   @@song_count=0
 
-  #Class reader for @songs
-  def self.songs
-    @songs
-  end
-
   def initialize(name)
    @name = name
    @songs = []
