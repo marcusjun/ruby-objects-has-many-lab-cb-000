@@ -10,6 +10,7 @@ class Post
     #Using ternary syntax
     (self.author ? self.author.name : nil)
 
+    #If/else statements work too
     #if self.author != nil
       #self.author.name
     #else
